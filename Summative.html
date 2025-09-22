@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Favorite Things</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: pink;
+      text-align: center;
+    }
+
+    header {
+      background: #333;
+      color: white;
+      padding: 15px;
+    }
+
+    nav {
+      background: #555;
+      padding: 10px;
+    }
+
+    nav a {
+      color: pink;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: yellow;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      max-width: 800px;
+      margin: 30px auto;
+    }
+
+    .card {
+      border: 2px solid #333;
+      border-radius: 8px;
+      overflow: hidden;
+      background: white;
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card h2 {
+      margin: 10px 0;
+      padding: 10px;
+      background: #eee;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Favorite Things</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="haikyu.html">About</a>
+    <a href="roblox.html">Games</a>
+    <a href="reply.html">Kdramas</a>
+    <a href="Jujutsu.html">Animes</a>
+  </nav>
+
+  <h2>Welcome!</h2>
+  <p>Here are some of the things I love.Click to learn the box to view :D</p>
+
+  <div class="cards">
+    <a href="haikyu.html" class="card">
+      <img src="https://th.bing.com/th/id/OIP.5T1u4sY3xXufWosy4qWJ4AHaHa?w=176&h=180&c=7&r=0&o=7&pid=1.7&rm=3.jpg" alt="Haikyuu">
+      <h2>Haikyuu!!</h2>
+    </a>
+
+    <a href="roblox.html" class="card">
+      <img src="https://th.bing.com/th/id/ODF._3ACNqUNfUp34DfaM_Ykyw?w=32&h=32&qlt=90&pcl=fffffc&o=6&pid=1.2.jpg" alt="Roblox">
+      <h2>Roblox</h2>
+    </a>
+
+    <a href="reply.html" class="card">
+      <img src=" https://th.bing.com/th/id/OIP.JiawPSAViwjMjrLPbjEaEAHaE8?w=263&h=180&c=7&r=0&o=7&pid=1.7&rm=3.jpg" alt="Reply 1988">
+      <h2>Reply 1988</h2>
+    </a>
+
+    <a href="jujutsu.html" class="card">
+      <img src="https://th.bing.com/th/id/OIP.gb1nTOS6jQUYKB8Q4v1UfgHaEK?w=297&h=180&c=7&r=0&o=7&pid=1.7&rm=3.jpg" alt="Jujutsu Kaisen">
+      <h2>Jujutsu Kaisen</h2>
+    </a>
+  </div>
+</body>
+</html>
